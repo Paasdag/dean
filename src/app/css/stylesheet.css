@@ -1,0 +1,21 @@
+
+body {
+    background-color: #111112;
+}
+.infocontainer {
+    background-color: #1e1e1f;
+    border-radius: 25px;
+    width: 200px;
+    height: 500px;
+    padding: 10px;
+    border: 2px solid #383838;
+    margin: 0;
+
+    position: fixed;
+    left: 20%;
+    top: 7.5%;
+}
+
+.pfp {
+    
+}

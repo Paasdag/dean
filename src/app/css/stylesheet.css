@@ -5,8 +5,8 @@ body {
 .infocontainer {
     background-color: #1e1e1f;
     border-radius: 25px;
-    width: 200px;
-    height: 500px;
+    width: 225px;
+    height: 350px;
     padding: 10px;
     border: 2px solid #383838;
     margin: 0;
@@ -17,5 +17,23 @@ body {
 }
 
 .pfp {
-    
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+
+.name {
+    margin-top: 10px;
+    text-align: center;
+}
+.badge {
+    margin-top: 15px;
+    background: #383838;
+}
+.discord-button {
+    margin-top: 60px;
+}
+.github-button {
+    margin-top: 20px;
 }

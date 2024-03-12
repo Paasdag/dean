@@ -2,11 +2,14 @@
 body {
     background-color: #111112;
 }
+/*
+Info stuff section 
+*/
 .infocontainer {
     background-color: #1e1e1f;
     border-radius: 25px;
-    width: 225px;
-    height: 350px;
+    width: 10%;
+    height: 40%;
     padding: 10px;
     border: 2px solid #383838;
     margin: 0;
@@ -19,8 +22,8 @@ body {
 .pfp {
     margin-top: 10px;
     border-radius: 50%;
-    width: 65px;
-    height: 65px;
+    width: 40%;
+    height: 40%;
 }
 
 .name {
@@ -30,10 +33,37 @@ body {
 .badge {
     margin-top: 15px;
     background: #383838;
+    margin-bottom: 50px;
 }
 .discord-button {
-    margin-top: 60px;
+    position: absolute;
+    top: 65%;
+    left: 35%;
+}
+.discord-button-tooltip{
+    background: #211951;
+    border-radius: 2%;
+    color: white;
 }
 .github-button {
-    margin-top: 20px;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+}
+
+/*
+About me section 
+*/
+.About-me {
+    background-color: #1e1e1f;
+    border-radius: 25px;
+    width: 10%;
+    height: 40%;
+    padding: 10px;
+    border: 2px solid #383838;
+    margin: 0;
+
+    position: fixed;
+    left: 20%;
+    top: 7.5%;
 }

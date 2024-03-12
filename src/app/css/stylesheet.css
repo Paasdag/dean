@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Proxima;
+    src: url(fonts/prox.otf);
+}
+
 
 body {
     background-color: #111112;
@@ -57,13 +62,26 @@ About me section
 .About-me {
     background-color: #1e1e1f;
     border-radius: 25px;
-    width: 10%;
-    height: 40%;
+    width: 40%;
+    height: 70%;
     padding: 10px;
     border: 2px solid #383838;
     margin: 0;
 
     position: fixed;
-    left: 20%;
+    left: 35%;
     top: 7.5%;
+}
+.text-about-me{
+    color: white;
+    font-family: "Proxima";
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.about-text {
+    color: white;
+    font-family: "Proxima";
+    font-size: 25px;
+    margin-left: 10px;
 }

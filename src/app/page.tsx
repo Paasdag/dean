@@ -38,7 +38,7 @@ export default function Home() {
           <Separator className="my-2"/>
           <h1 className="text-about-me">Hobbies</h1>
           <Separator className="my-2"/>
-          <h2 className="about-text">
+          <h2 className="about-text"> 
             I have a few hobbies for example Programming, Gaming, Cooking/Baking. I love cooking with my mother, If i had to say which my favorite thing is to make i&apos;d say Brigadeiros they&apos;re from bazil and i love making these for special occasions like parties, gifts basically for anything!
           </h2>
         </div>

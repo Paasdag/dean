@@ -2,6 +2,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button";
 import {Tooltip} from "@nextui-org/react";
 import { Separator } from "@/components/ui/separator"
+import {Tabs, Tab} from "@nextui-org/react";
 
 
 
@@ -23,8 +24,7 @@ export default function Home() {
               <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width={30}/>
             </Button>
           </Tooltip>
-          <a href="https://github.com/Paasdag"><center><Button className="github-button bg-indigo-600 hover:bg-gray-800"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width={30} />
-          </Button></center></a>
+          <a href="https://github.com/Paasdag"><center><Button className="github-button bg-indigo-600 hover:bg-gray-800"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width={30} /></Button></center></a>
         </div>
         <div className="About-me">
           <div>

@@ -2,7 +2,6 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button";
 import {Tooltip} from "@nextui-org/react";
 import { Separator } from "@/components/ui/separator"
-import {Tabs, Tab} from "@nextui-org/react";
 
 
 

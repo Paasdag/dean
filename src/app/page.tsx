@@ -33,13 +33,13 @@ export default function Home() {
           <Separator className="my-2"/>
         <div>
           <h2 className="about-text">
-            Hello!, i am Dean, A self taught programmer. Theres a few languages i'd like to learn like Java and get great at React, Html, Css to make websites like this one or even better!
+            Hello!, i am Dean, A self taught programmer. Theres a few languages i&apos;d like to learn like Java and get great at React, Html, Css to make websites like this one or even better!
           </h2>
           <Separator className="my-2"/>
           <h1 className="text-about-me">Hobbies</h1>
           <Separator className="my-2"/>
           <h2 className="about-text">
-            I have a few hobbies for example Programming, Gaming, Cooking/Baking. I love cooking with my mother, If i had to say which my favorite thing is to make i'd say Brigadeiros they're from bazil and i love making these for special occasions like parties, gifts basically for anything!
+            I have a few hobbies for example Programming, Gaming, Cooking/Baking. I love cooking with my mother, If i had to say which my favorite thing is to make i&apos;d say Brigadeiros they&apos;re from bazil and i love making these for special occasions like parties, gifts basically for anything!
           </h2>
         </div>
         </div>

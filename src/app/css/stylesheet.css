@@ -2,20 +2,16 @@
     font-family: Proxima;
     src: url(fonts/prox.otf);
 }
-
-
 body {
     background-color: #111112;
 }
-/*
-Info stuff section 
-*/
+
 .infocontainer {
     overflow: auto;
     background-color: #1e1e1f;
     border-radius: 25px;
-    width: 10%;
-    height: 40%;
+    width: fit-content;
+    height: fit-content;
     padding: 10px;
     border: 2px solid #383838;
     margin: 0;
@@ -92,3 +88,9 @@ About me section
     font-size: 25px;
     margin-left: 10px;
 }
+
+@media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }

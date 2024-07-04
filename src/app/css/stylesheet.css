@@ -68,7 +68,7 @@ About me section
     background-color: #1e1e1f;
     border-radius: 25px;
     width: 40%;
-    max-height: 70%;
+    max-height: fit-content;
     padding: 10px;
     border: 2px solid #383838;
     margin: 0;

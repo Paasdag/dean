@@ -7,7 +7,6 @@ import { Separator } from "@/components/ui/separator"
 
 import "./css/stylesheet.css"
 import "./css/rainbowtext.css"
-import "./css/test"
 
 
 

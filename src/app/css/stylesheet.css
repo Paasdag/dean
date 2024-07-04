@@ -126,8 +126,8 @@ About me section
     }
     .discord-button {
             position: absolute;
-            top: 65%;
-            left: 35%;
+            top: 50%;
+            left: 50%;
     }
     .discord-button-tooltip{
         background: #211951;

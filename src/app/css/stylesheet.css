@@ -94,7 +94,7 @@ About me section
         overflow: auto;
         background-color: #1e1e1f;
         border-radius: 25px;
-        width: 10%;
+        width: 17%;
         height: 40%;
         padding: 10px;
         border: 2px solid #383838;
@@ -111,8 +111,8 @@ About me section
     .pfp {
         margin-top: 10px;
         border-radius: 50%;
-        width: 40%;
-        height: 40%;
+        width: 60%;
+        height: 60%;
     }
     
     .name {

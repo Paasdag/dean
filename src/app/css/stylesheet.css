@@ -10,8 +10,8 @@ body {
     overflow: auto;
     background-color: #1e1e1f;
     border-radius: 25px;
-    width: fit-content;
-    height: fit-content;
+    width: 10%;
+    height: 40%;
     padding: 10px;
     border: 2px solid #383838;
     margin: 0;
@@ -89,8 +89,83 @@ About me section
     margin-left: 10px;
 }
 
-@media (min-width: 600px) {
-    .column {
-      width: 50%;
+@media (min-width: 650px) {
+    .infocontainer {
+        overflow: auto;
+        background-color: #1e1e1f;
+        border-radius: 25px;
+        width: 10%;
+        height: 40%;
+        padding: 10px;
+        border: 2px solid #383838;
+        margin: 0;
+        
+        
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        left: 20%;
+        top: 7.5%;
+    }
+    
+    .pfp {
+        margin-top: 10px;
+        border-radius: 50%;
+        width: 40%;
+        height: 40%;
+    }
+    
+    .name {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .badge {
+        margin-top: 15px;
+        background: #383838;
+        margin-bottom: 50px;
+    }
+    .discord-button {
+            position: absolute;
+            top: 65%;
+            left: 35%;
+    }
+    .discord-button-tooltip{
+        background: #211951;
+        border-radius: 2%;
+        color: white;
+    }
+    .github-button {
+        position: absolute;
+        top: 80%;
+        left: 35%;
+    }
+    .About-me {
+        overflow: auto;
+        background-color: #1e1e1f;
+        border-radius: 25px;
+        width: 40%;
+        max-height: fit-content;
+        padding: 10px;
+        border: 2px solid #383838;
+        margin: 0;
+        position: fixed;
+        left: 35%;
+        top: 7.5%;
+        transition: height 0.5s ease; /* Smooth transition for height changes */
+    }
+    
+    
+    .text-about-me{
+        color: white;
+        font-family: "Proxima";
+        font-size: 23px;
+        margin-left: 10px;
+    }
+    
+    .about-text {
+        color: white;
+        font-family: "Proxima";
+        font-size: 13px;
+        margin-left: 10px;
     }
   }

@@ -89,7 +89,7 @@ About me section
     margin-left: 10px;
 }
 
-@media (min-width: 650px) {
+@media only screen and (max-width: 650px) {
     .infocontainer {
         overflow: auto;
         background-color: #1e1e1f;

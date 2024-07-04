@@ -11,6 +11,7 @@ body {
 Info stuff section 
 */
 .infocontainer {
+    overflow: auto;
     background-color: #1e1e1f;
     border-radius: 25px;
     width: 10%;
@@ -18,7 +19,10 @@ Info stuff section
     padding: 10px;
     border: 2px solid #383838;
     margin: 0;
-
+    
+    
+    justify-content: center;
+    align-items: center;
     position: fixed;
     left: 20%;
     top: 7.5%;
@@ -41,9 +45,9 @@ Info stuff section
     margin-bottom: 50px;
 }
 .discord-button {
-    position: absolute;
-    top: 65%;
-    left: 35%;
+        position: absolute;
+        top: 65%;
+        left: 35%;
 }
 .discord-button-tooltip{
     background: #211951;
@@ -60,18 +64,21 @@ Info stuff section
 About me section 
 */
 .About-me {
+    overflow: auto;
     background-color: #1e1e1f;
     border-radius: 25px;
     width: 40%;
-    height: 70%;
+    max-height: 70%;
     padding: 10px;
     border: 2px solid #383838;
     margin: 0;
-
     position: fixed;
     left: 35%;
     top: 7.5%;
+    transition: height 0.5s ease; /* Smooth transition for height changes */
 }
+
+
 .text-about-me{
     color: white;
     font-family: "Proxima";

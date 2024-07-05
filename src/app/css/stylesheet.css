@@ -7,7 +7,6 @@ body {
 }
 
 .infocontainer {
-    overflow: auto;
     background-color: #1e1e1f;
     border-radius: 25px;
     width: 10%;
@@ -40,16 +39,6 @@ body {
     background: #383838;
     margin-bottom: 50px;
 }
-.discord-button {
-        position: absolute;
-        top: 65%;
-        left: 35%;
-}
-.discord-button-tooltip{
-    background: #211951;
-    border-radius: 2%;
-    color: white;
-}
 .github-button {
     position: absolute;
     top: 80%;
@@ -60,7 +49,6 @@ body {
 About me section 
 */
 .About-me {
-    overflow: auto;
     background-color: #1e1e1f;
     border-radius: 25px;
     width: 40%;
@@ -91,7 +79,6 @@ About me section
 
 @media only screen and (max-width: 650px) {
     .infocontainer {
-        overflow: auto;
         background-color: #1e1e1f;
         border-radius: 25px;
         width: 17%;
@@ -124,23 +111,12 @@ About me section
         background: #383838;
         margin-bottom: 50px;
     }
-    .discord-button {
-        position: absolute;
-        top: 65%;
-        left: 20%;
-    }
-    .discord-button-tooltip{
-        background: #211951;
-        border-radius: 2%;
-        color: white;
-    }
     .github-button {
         position: absolute;
         top: 80%;
         left: 20%;
     }
     .About-me {
-        overflow: auto;
         background-color: #1e1e1f;
         border-radius: 25px;
         width: 60%;
@@ -151,7 +127,6 @@ About me section
         position: fixed;
         left: 35%;
         top: 7.5%;
-        transition: height 0.5s ease; /* Smooth transition for height changes */
     }
     
     

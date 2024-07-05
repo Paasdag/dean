@@ -18,6 +18,7 @@ export default function Home() {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
+      <Analytics />
         <div className="infocontainer">
           <div><center><img src="https://cdn.discordapp.com/avatars/624861181311451137/2f361a44259edf650f4cc8af7c2787c0?size=1024" className="pfp"/></center></div>
           <div className="name rainbow">Dean</div>

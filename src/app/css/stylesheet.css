@@ -144,3 +144,28 @@ About me section
         margin-left: 10px;
     }
   }
+
+@media only screen and (max-width: 425px) {
+  .infocontainer {
+      background-color: #1e1e1f;
+      border-radius: 25px;
+      width: 20%;
+      height: 40%;
+      padding: 10px;
+      border: 2px solid #383838;
+      margin: 0;
+      
+      
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      left: 13%;
+      top: 7.5%;
+    }
+
+  .github-button {
+    position: absolute;
+    top: 80%;
+    left: 13%;
+    }
+}
